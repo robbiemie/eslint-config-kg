@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js add babel-eslint eslint eslint-config-alloy eslint-config-prettier eslint-plugin-html eslint-plugin-jest eslint-plugin-json eslint-plugin-prettier eslint-plugin-react eslint-plugin-typescript
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: http://registry.npm.taobao.org/babel-eslint: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:130250:19)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+      at Timer.processTimers (timers.js:223:10)
+
+npm manifest: 
+  {
+    "name": "kg-eslint-config",
+    "version": "1.0.0",
+    "description": "kg recommond conf.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yang657850144/kg-eslint-config.git"
+    },
+    "keywords": [
+      "eslint",
+      "kg"
+    ],
+    "author": "Robbie",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/yang657850144/kg-eslint-config/issues"
+    },
+    "homepage": "https://github.com/yang657850144/kg-eslint-config#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
