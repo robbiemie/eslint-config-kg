@@ -1,0 +1,23 @@
+{
+  "name": "kg-eslint-config",
+  "version": "1.0.0",
+  "description": "kg recommond conf.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yang657850144/kg-eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "kg"
+  ],
+  "author": "Robbie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yang657850144/kg-eslint-config/issues"
+  },
+  "homepage": "https://github.com/yang657850144/kg-eslint-config#readme"
+}
